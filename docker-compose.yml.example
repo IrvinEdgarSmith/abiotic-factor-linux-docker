@@ -1,6 +1,6 @@
 services:
   abiotic-server:
-    image: "thisismynameok/abiotic-factor-linux-docker:latest"
+    image: "IrvinEdgarSmith/abiotic-factor-linux-docker:latest"
     restart: unless-stopped
     volumes:
       - "./gamefiles:/server"
@@ -9,11 +9,11 @@ services:
       - MaxServerPlayers=6
       - Port=7777
       - QueryPort=27015
-      - ServerPassword=password
-      - SteamServerName=Linux Server
+      - ServerPassword=Timgdapw2791!
+      - SteamServerName=MycelialLaboratory
       - UsePerfThreads=true
       - NoAsyncLoadingThread=true
-      - WorldSaveName=Cascade
+      - WorldSaveName=MycelialSave
 #     - AutoUpdate=true
 #     - AdditionalArgs=-SandboxIniPath=Config/WindowsServer/Server1Sandbox.ini
       - DISCORD_WEBOOK_URL: <discord webhook url here>
